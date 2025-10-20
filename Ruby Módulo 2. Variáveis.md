@@ -32,7 +32,7 @@ IRB
 Por que `b` não mudou após `a` ser reatribuída?  
 Isso acontece porque variáveis em Ruby armazenam **referências a objetos**, e não a outras variáveis.  
 Quando `a` recebe um novo valor, ela passa a apontar para outro objeto, mas `b` ainda referencia o antigo.”
-![[variables_as_pointers_1.1.png]]
+![exemplo 1](https://github.com/gabrii3lmao/Modulos-Ruby---TOP/blob/main/imagens/variables_as_pointers_1.1.png?raw=true)
 Esse ‘pulo’ de endereço só acontece quando reatribuímos uma variável com o operador `=`.  
 Se, em vez disso, modificarmos o objeto que ela referencia, algo interessante acontece:
 ``` ruby
