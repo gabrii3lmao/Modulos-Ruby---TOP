@@ -101,3 +101,5 @@ carros_japoneses = {
 }
 ```
 Cuidado, pois esses métodos tem um jeito diferente de serem chamados do que usando strings. Você precisa utilizar essa sintaxe: `carros_americanos[:chevrolet]`
+
+Ir para o [[Ruby Módulo 8. Métodos]]
