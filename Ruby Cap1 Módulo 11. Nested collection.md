@@ -198,3 +198,6 @@ Bom, se quisermos deixar esse código ainda mais rubístico, poderíamos usar o 
 carros.filter_map {|nome, data| nome if data[:ano] >= 2020}
 #=> [:caleb, :blake]
 ```
+
+Você finalizou o primeiro capítulo de Ruby! Parabéns!
+Vá para [[Ruby Cap2 Módulo 0.5 POO - conceitos]] para continuar para o próximo capítulo.
